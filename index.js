@@ -105,10 +105,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. window/global binding, essentially means that this will not have any context, so therefore it would be bound to the window or console.
+    2. implicit binding is when dot notation implies what this will be bound to.
+    3. new binding, when using a constructor function this refers to the instance of the object that was just created and returned by the constructor.
+    4. explicit binding, is when this is explicitly defined using the call or apply method.
   */
   
   
